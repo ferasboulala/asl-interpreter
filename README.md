@@ -1,6 +1,6 @@
 ASL-INTERPRETER
 ===
-NOTE: I do not provide the samples because there are too many files. There is a sample generator in the `src` folder that you can use to create your own. Remember, the more diverse the samples are, the better the CNN or the SVM will perform.
+NOTE: I do not provide the samples because there are too many files. There is a sample generator in the `src` folder that you can use to create your own. Remember, the more diverse the samples are, the better the CNN or the SVM will perform. If you read the code and realise that there are missing folders, this is because they used to contain samples that I didn't include in this repo (size and count). `git` deletes any empty folder so this is why.
 
 `asl` is a ROS package that detects and classifies static symbols (no gestures) from the American Sign Language through the use of OpenNI2, NiTE2, OpenCV2, Tensorflow and Kinect One (or Kinect for Windows). Anyone with a Kinect One can use this package to interact with a robot or computer with the use of ASL spelling (alphabet letters and numbers).
 

@@ -1,5 +1,7 @@
-ASL
+ASL-INTERPRETER
 ===
+NOTE: I do not provide the samples because there are too many files. There is a sample generator in the `src` folder that you can use to create your own. Remember, the more diverse the samples are, the better the CNN or the SVM will perform.
+
 `asl` is a ROS package that detects and classifies static symbols (no gestures) from the American Sign Language through the use of OpenNI2, NiTE2, OpenCV2, Tensorflow and Kinect One (or Kinect for Windows). Anyone with a Kinect One can use this package to interact with a robot or computer with the use of ASL spelling (alphabet letters and numbers).
 
 I have made a short jupyter notebook (`scripts/`) explaining the image processing used in this project.

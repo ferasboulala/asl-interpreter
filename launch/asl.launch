@@ -1,0 +1,7 @@
+<launch>
+	<arg name="type" default="rgb" />
+
+	<node pkg="asl" type="ASL" name="ASL" output="screen" cwd="node"/>
+
+	<node pkg="nodelet" type="nodelet" name="manager" args="manager"/>
+</launch>

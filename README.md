@@ -24,7 +24,7 @@ To make sure the following succeeded, try out the samples provided by `libfreene
   2. `$ catkin_make`
 
 # Usage
-If you would like to test the package right away, you will need either `rgb_logs` or `depth_logs` for the `cnn` or the whole `rgb` dataset for the `svm`. To do so, download the latest release of this repo. Then follow these steps:
+If you would like to test the package right away, you will need either `rgb_logs` or `depth_logs` for the `cnn` or the trained models for the `svm`. To get them, you must retrain the CNN and the SVM with your own samples (again, too many files, so little space on github). Then, :
   1. Plug the USB 3.0 Kinect adapter to your computer.
   2. `$ roslaunch asl asl.launch` : This will run the ASL node (`src/main.cpp`). You should see the depth image with a wave sign.
   3. `$ roscd asl/scripts/SVM/` and then `$ python SVM_classify.py --type rgb`
